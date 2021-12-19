@@ -1,0 +1,129 @@
+body{
+  background: #141414 !important;
+  color:#FFFFFF !important;
+}
+
+.navClass{
+  background: #141414 !important;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.ratingBox{
+  padding-top: 20px;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141414;
+}
+.headeComp{
+  padding-left: 20px;
+}
+.sliderImg{
+  height: 350px;
+  width: 100%;
+}
+.sliderContent{
+  height: 300px;
+  width: 90%;
+  width: 50%;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+  color:#fff !important;
+}
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.image-container{
+  background-color: #141414;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.overlayx{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#fff;
+  text-shadow: 2px 2px #808080;
+}
+
+.scrollable{
+  overflow:scroll; 
+  width:508px;
+}
+
+.iconGrid{
+  display: flex;
+}
+
+.parent-scrollable{
+  overflow:hidden;
+   width:500px;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.landingContainer{
+  margin: 100px 20px;
+}
+
+.checkBoxContainer{
+  display: inline-block;
+  border : solid 1px #fff;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.buttContiner{
+  padding: 50px 0;
+}
+
+.contButt{
+  display: block !important;
+  margin: auto !important;
+  border: solid 1px #FFFFFF !important;
+  color: #fff !important;
+}
+
+.landingHeader{
+  padding: 20px 0;
+}
